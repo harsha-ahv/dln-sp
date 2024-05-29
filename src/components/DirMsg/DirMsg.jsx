@@ -20,7 +20,7 @@ function DirMsg() {
       <section className="director-message">
         <img
           src={pic}
-          alt="Director Image"
+          alt="Director"
           className="director-image"
         />
         <div className="message-content">
