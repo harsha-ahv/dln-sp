@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../assets/imgs/logo.jpg"
+import logo from "../assets/imgs/logo.png"
 import { Link } from 'react-router-dom'
 import { IoMdCall,IoMdMail } from "react-icons/io";  
 import "./Footer.css"

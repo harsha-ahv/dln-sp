@@ -163,17 +163,24 @@ iframe{
 
     .contact {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 15px;
         font-size: 24px;
     }
+    .footer-logo{
+        justify-content: space-around;
+        margin-left: 5%;
+    }
 
     .footer-logo p {
+        /* margin-left: 15px; */
         font-size: 24px;
     }
 
     .footer-links {
         flex-direction: column;
-        gap: 20px;
+        gap: 15%;
     }
 
     .footer-copyright {
