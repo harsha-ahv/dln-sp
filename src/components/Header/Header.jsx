@@ -6,11 +6,6 @@ import { Link } from 'react-router-dom';
 function Header() {
   let [menu,setMenu]=useState("home");
   // console.log(menu);
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleNav = () => {
-    setIsOpen(!isOpen);
-  };
   return (
     <div className='header'>
       <div className="header-logo">
