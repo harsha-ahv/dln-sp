@@ -61,7 +61,7 @@
   
     .desc {
       max-width: 100%;
-      text-align: left;
+      text-align: justify;
       padding: 0 20px; /* Add padding to the sides for better spacing */
     }
   

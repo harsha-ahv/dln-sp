@@ -17,6 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    margin-left: 20px;
     color: black;
   }
   .nav-links{

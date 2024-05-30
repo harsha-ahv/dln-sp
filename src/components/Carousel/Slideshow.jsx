@@ -3,23 +3,7 @@ import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import "./Caraousel.css"
 
-const spanStyle = {
-  padding: '20px',
-  background: 'black',
-  color: 'white',
-  borderRadius: '5px',
-  marginBottom: '25px',
-  width:"750px",
-}
 
-const divStyle = {
-  display: 'flex',
-  alignItems: 'last baseline',
-  justifyContent: 'center',
-  backgroundSize: 'cover',
-  borderRadius: '30px',
-  height: '500px'
-}
 const slideImages = [
   {
     url: 'https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
@@ -42,8 +26,8 @@ const Slideshow = () => {
         <Slide>
          {slideImages.map((slideImage, index)=> (
             <div key={index}>
-              <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}>
-                <span style={spanStyle}>{slideImage.caption}</span>
+              <div className='divi' style={{ 'backgroundImage': `url(${slideImage.url})` }}>
+                <span className='spanStyle'>{slideImage.caption}</span>
               </div>
             </div>
           ))} 
