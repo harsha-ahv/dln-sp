@@ -1,0 +1,27 @@
+.item{
+    width: 350px;
+    height: 200px;
+    margin-bottom: 25px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-bottom: 15%;
+}
+.item p{
+    margin: 6px 0px;
+    color: black;
+}
+.item-prices{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.item:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}

@@ -1,5 +1,5 @@
 .slide-container{
-    /* margin: 5px 100px; */
+    margin: 5px 100px;
     width: 750px;
     border-radius: 300px;
     color: black;
@@ -14,15 +14,16 @@
   height: 500px;
 
 }
-.spanstyle{
+.spanStyle{
+  padding: 20px;
   background: black;
   color: white;
   border-radius: 5px;
   margin-bottom: 25px;
-  width:750px,
+  width:100%
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .slide-container {
       width: 90%; /* Adjust the width to be a percentage of the viewport */
       border-radius: 20px; /* Reduce the border-radius for better fit on smaller screens */
@@ -32,8 +33,15 @@
     .divi{
       border-radius: 10px;
       height: 300px;
+      /* width: 300px; */
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
+    }
+    .spanStyle{
+      background: transparent;
+      color: white;
+      margin-top: 150px;
+      max-width: 400px;
     }
   }

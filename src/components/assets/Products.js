@@ -10,6 +10,12 @@ let Products=[{
 },{
     "name":"Product 4",
     "description":"lorem ipsum dolor sit amet, consectetur adipiscing"
+},{
+    "name":"Product 4",
+    "description":"lorem ipsum dolor sit amet, consectetur adipiscing"
+},{
+    "name":"Product 4",
+    "description":"lorem ipsum dolor sit amet, consectetur adipiscing"
 }
 ]
 

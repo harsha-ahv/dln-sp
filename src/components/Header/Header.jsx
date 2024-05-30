@@ -7,7 +7,7 @@ function Header() {
   let [menu,setMenu]=useState("home");
   // console.log(menu);
   return (
-    <div className='header'>
+    <div className='header' id='header'>
       <div className="header-logo">
         <img src={logo} alt="" />
         <h1>DLN SPACE HEALTHCARE</h1>

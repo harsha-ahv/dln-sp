@@ -1,74 +1,83 @@
-.home{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
-.msg{
-    display: flex;
-    gap: 150px;
-    /* align-items: center; */
-    justify-content: center;
-    /* background-image; */
+.msg {
+  display: flex;
+  gap: 150px;
+  /* align-items: center; */
+  justify-content: center;
+  /* background-image; */
 }
 
-.msg p{
-    font-size: 20px;
-    max-width: 1000px;
-    margin-left: 50px;
-    text-align: justify;
+.msg p {
+  font-size: 20px;
+  max-width: 1000px;
+  margin-left: 50px;
+  text-align: justify;
 }
 
-.msg img{
-    width: 200px;
+.msg img {
+  width: 200px;
 }
 
-.desc{
-    max-width: 500px;
-    text-align: justify;
-    color: black;
+.desc {
+  margin: 1% 5%;
+  max-width: 500px;
+  text-align: justify;
+  color: black;
 }
 
-.slide-show{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-around;
+.desc p{
+  text-align: right;
+  text-decoration: underline;
+}
+li{
+  list-style-type: none;
 }
 
-@media (max-width: 768px) {
-    .home {
-      gap: 30px;
-    }
-  
-    .msg {
-      flex-direction: column;
-      gap: 30px;
-      align-items: center;
-      margin: 0 20px; /* Add some margin to the sides for better spacing */
-    }
-  
-    .msg p {
-      font-size: 16px;
-      max-width: 100%;
-      margin-left: 0;
-      text-align: left;
-    }
-  
-    .msg img {
-      width: 150px;
-    }
-  
-    .desc {
-      max-width: 100%;
-      text-align: justify;
-      padding: 0 20px; /* Add padding to the sides for better spacing */
-    }
-  
-    .slide-show {
-      flex-direction: column;
-      justify-content: center;
-      gap: 20px;
-      padding: 0 20px; /* Add padding to the sides for better spacing */
-    }
+.slide-show {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 1200px) {
+  .home {
+    gap: 30px;
   }
+
+  .msg {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin: 0 20px; /* Add some margin to the sides for better spacing */
+  }
+
+  .msg p {
+    font-size: 16px;
+    max-width: 100%;
+    margin-left: 0;
+    text-align: left;
+  }
+
+  .msg img {
+    width: 150px;
+  }
+
+  .desc {
+    max-width: 100%;
+    text-align: justify;
+    padding: 0 20px; /* Add padding to the sides for better spacing */
+  }
+
+  .slide-show {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px; /* Add padding to the sides for better spacing */
+  }
+}
