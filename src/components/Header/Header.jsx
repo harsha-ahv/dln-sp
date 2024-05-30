@@ -18,14 +18,11 @@ function Header() {
         <h1>DLN SPACE HEALTHCARE</h1>
       </div >
 
-      <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
+      <ul className={`nav-links`}>
         <li> <Link to="/" onClick={()=>{setMenu("home")}}>HOME</Link> {menu==="home"?<hr />:<></>}</li>
         <li> <Link to="/products" onClick={()=>{setMenu("products")}}>PRODUCTS</Link>{menu==="products"?<hr />:<></>} </li>
         <li> <a href="#footer">CONTACT US</a> </li>
       </ul>
-      <button className="nav-toggle" aria-label="toggle navigation" onClick={toggleNav}>
-        <span className="hamburger"></span>
-      </button>
     </div>
   );
 }

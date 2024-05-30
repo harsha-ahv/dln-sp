@@ -46,45 +46,17 @@ body {
       text-decoration: none;
       color: black;
     }
-    .nav-toggle {
-      display: none;
-      flex-direction: column;
-      cursor: pointer;
-    }
     
-    .nav-toggle .hamburger,
-    .nav-toggle .hamburger::before,
-    .nav-toggle .hamburger::after {
-      content: "";
-      background-color: black;
-      height: 3px;
-      width: 25px;
-      border-radius: 3px;
-      transition: all 0.3s linear;
-    }
-    
-    .nav-toggle .hamburger::before,
-    .nav-toggle .hamburger::after {
-      position: absolute;
-    }
-    
-    .nav-toggle .hamburger::before {
-      transform: translateY(-8px);
-    }
-    
-    .nav-toggle .hamburger::after {
-      transform: translateY(8px);
-    }
 
     @media (max-width: 768px) {
       .header {
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
         padding: 20px;
       }
       .nav-links hr{
-        width:10px;
+        width:20%;
         outline: none;
         height: 3px ;
         background: #065c79;
@@ -93,24 +65,29 @@ body {
       }
     
       .header-logo {
-        flex-direction: column;
+        /* flex-direction: column; */
+        justify-content: space-between;
         gap: 15px;
       }
       .nav-toggle {
-        display: block;
+        padding: 20px;
+        display: flex;
         flex-direction: column;
+        align-items: center;
         cursor: pointer;
+        /* mar */
       }
     
       .nav-links {
-        display: none;
-        flex-direction: column;
+        /* display: none; */
+        /* flex-direction: column; */
         align-items: center;
-        gap: 10px;
-        justify-content: center;
-        width: 80%;
-        background-color: white;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        /* gap: 10px; */
+        justify-content: space-around;
+        width: 100%;
+        margin-right: 63px;
+        /* background-color: white; */
+        /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
       }
       .nav-links.open {
         display: flex;
